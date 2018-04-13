@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<id-provider xmlns="urn:enonic:xp:model:1.0">
+	<!--
+		http://xp.readthedocs.io/en/stable/developer/id-provider/index.html
+
+		MIXED: The users are stored in a remote system and the groups in the
+		user store. The users in the user store are only a snapshot view of this
+		remote system and therefore the users are not editable in the admin tool
+		Users.
+	-->
+	<mode>MIXED</mode>
+	<config>
+		<!-- Specify the input fields required by the ID provider here: -->
+	</config>
+</id-provider>
